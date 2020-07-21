@@ -1,0 +1,241 @@
+
+/* Universal Styles */
+
+body {
+  background-color: rgb(224, 222, 222)
+}
+
+.outline {
+  outline-width: 2px; outline-style: solid; outline: tomato;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+h1 {
+  color: rgb(135, 170, 222); font-family: futura; text-align: center; 
+}
+
+h2 {
+  font-family: Futura;
+  font-size: 20;
+  color: darkblue;
+  text-align: center;
+  padding-top: 18px;
+  text-decoration: underline;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: center;
+}
+
+/* Header Section */
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 70px;
+  background-color: white;
+  align-items: center;
+  top: 0px;
+  display: inline-block;
+}
+
+header h1{
+  border-radius: 80%;
+  border: 2px solid blue;;
+  display: inline-block;
+  padding: 10px 10px;
+  margin: 10px;
+}
+
+nav {
+  display: inline-block;
+  text-align: center;
+  background-color: white;
+  width: 100%;
+  font-family: futura;
+  max-height: 70px;
+  text-align: center;
+}
+
+#ant {
+  height: 55px;
+  padding-left: 10px;
+  padding-top: 10px;
+  display: inline-block;
+  padding-right: 40px;
+}
+
+.links{
+  margin-left: 30px;
+  color: #0A58A5;
+  text-decoration: underline;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+}
+
+.top-contact{
+  display: inline-block;
+  text-align: right;
+  font-size: small;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+
+/* Main Section */
+
+main{
+  padding-top: 3em;
+}
+.topper{
+  border-bottom: 2px solid blue;
+  text-align: center;
+}
+
+.topper #left{
+  display: inline-block;
+  max-width: 300px;
+}
+
+.topper #right{
+  display: inline-block;
+  max-width: 300px;
+}
+
+#DevMe{
+  max-width: 20%;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+}
+
+/* About Me Section */
+
+#about{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.resume-container{
+  border-radius: 15px;
+  width: 200px;
+  border-width: 10px;
+  border: 2px solid blue;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+#resume-photo{
+  height: 200px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.how-container{
+  border-radius: 15px;
+  width: 200px;
+  border-width: 10px;
+  border: 2px solid blue;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+
+#how-photo{
+  height: 200px;
+}
+
+/* Project Section */
+
+.project-text{ 
+  font-family: futura;
+  font-size: large;
+  width: 100%; 
+}
+
+#projects{
+  text-align: center;
+}
+
+.cheat-container{
+  border-radius: 15px;
+  width: 200px;
+  border-width: 10px;
+  border: 2px solid blue;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+#cheat-photo{
+  height: 200px;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* Cheat Sheet CSS */
+
+.css {color: darkturquoise}
+
+.javascript {color: teal;}
+
+table {margin-right: auto;
+
+margin-left: auto;
+}
+
+table, th, td {
+    border: 2px solid black;
+  }
+
+  th, td {
+    padding: 7px;
+  }
+
+  table {
+    border-spacing: 2px;
+}
+
+#tag { background-color: white;
+    font-family: Courier;
+}
+
+th {background-color: darkgray
+}
+
+
+/* Footer Section */
+
+footer{
+  background-color: rgb(135, 170, 222);
+  width: 100%;
+  background-color: white;
+  align-items: center;
+  display: inline-block;
+  bottom: 0;
+}
+
+/* Delete? */
+
+/* #files {
+  height: 500px;
+}
+
+#coding {
+  max-width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+/* /Users/joefernette/Desktop/Code Projects/Portfolio/resources/css/Pretty.css */
