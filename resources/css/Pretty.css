@@ -63,13 +63,13 @@ nav {
   text-align: center;
 }
 
-#ant {
+/* #ant {
   height: 55px;
   padding-left: 10px;
   padding-top: 10px;
   display: inline-block;
   padding-right: 40px;
-}
+} */
 
 .links{
   margin-left: 30px;
@@ -87,7 +87,6 @@ nav {
   padding-right: 20px;
   padding-left: 20px;
 }
-
 
 /* Main Section */
 
@@ -183,6 +182,38 @@ main{
   width: 100%;
 }
 
+.angry-container{
+  border-radius: 15px;
+  width: 200px;
+  border-width: 10px;
+  border: 2px solid blue;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+#angry-photo{
+  height: 200px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.survival-container{
+  border-radius: 15px;
+  width: 200px;
+  border-width: 10px;
+  border: 2px solid blue;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+#survival-photo{
+  height: 200px;
+  overflow: hidden;
+  width: 100%;
+}
+
 /* Cheat Sheet CSS */
 
 .css {color: darkturquoise}
@@ -223,6 +254,12 @@ footer{
   align-items: center;
   display: inline-block;
   bottom: 0;
+}
+
+/*  Pages */
+
+.pages-main{
+  padding-top: 3em;
 }
 
 /* Delete? */
