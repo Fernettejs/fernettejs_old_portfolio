@@ -13,9 +13,9 @@ body {
   font-weight: 900;
 }
 
-h1 {
+/* h1 {
   color: rgb(135, 170, 222); font-family: futura; text-align: center; 
-}
+} */
 
 h2 {
   font-family: Futura;
@@ -134,6 +134,22 @@ main{
 }
 
 #resume-photo{
+  height: 200px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.who-container{
+  border-radius: 15px;
+  width: 200px;
+  border-width: 10px;
+  border: 2px solid blue;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+#who-photo{
   height: 200px;
   overflow: hidden;
   width: 100%;

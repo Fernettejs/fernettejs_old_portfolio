@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-cscccc
 <html>
 
     <head>
-        <title>Joe Fernette Portfolio</title>
+        <title>Joe Fernette's Portfolio</title>
         <link rel="stylesheet" type="text/css" href="resources/css/Pretty.css">
+        <script src="resources/script.js"></script>
     </head>
 
     <body>
@@ -13,7 +13,7 @@ cscccc
 
         <header class="flex-container">
                 <!-- <img id=ant src="resources/images/Ant.png" alt=""> -->
-                <h1>JF</h1>
+                <h1 onclick="topFunction()" id="myBtn" title="Go to top">JF</h1>
                 
                 <nav>
                     <span>&emsp;&ensp;</span>
@@ -36,12 +36,13 @@ cscccc
         <main>
 
             <div class="topper">
-                <h1>Joe Fernette's<br>Portfolio</h1>
+                <span onclick="newStyle();">
+                <h1 class="centered" id="logo">Joe Fernette's<br>Portfolio</h1>
                 <!-- <span id="left">DRIVEN / PROBLEM SOLVER / LEADER / QUICK TO ADAPT / FOCUSED / TEAMWORK / INTEGRITY</span> -->
                 <img id=DevMe src="resources/images/Professional Photo.png" alt="Professional Photo">
                 <!-- <span id="right">Efficiency-driven, goal-oriented professional with problem-solving experience under a vast array of high-pressure environments. A self-starter with excellent communication, organizational and analytical skills. Demonstrated leadership skills, mentoring skills, risk assessment and management, and supervisory experience with a team of 26 personnel in the United States Marine Corps. Exceptional ability to carry out work with minimal supervision, attention to detail and the ability to work under strict deadlines. Strong verbal and written communication skills with the ability to interact with all levels of an organization. I have a great interest in what pushes people to be their best in any situation and I strive to come up with solutions to problems and improve myself and others everyday. -->
                 </span>
-
+          
             </div>
 
                 <!-- About Me Section -->
@@ -52,8 +53,15 @@ cscccc
 
                     <div class="resume-container">
                         <a href="https://my.indeed.com/p/josephf-xgjxe9l" target="_blank" class="resume">
-                            <img id=resume-photo src="resources/images/Suit me.jpg" alt="suit">
+                            <img id=resume-photo src="resources/images/Welcome.jpg" alt="suit">
                             <span class=project-text>Resume</span>
+                        </a>
+                    </div>
+
+                    <div class="who-container">
+                        <a href="LINK" target="_blank" class="who">
+                            <img id=who-photo src="resources/images/left-brain-right-brain2.jpg" alt="Who">
+                            <span class=project-text>Who I Am</span>
                         </a>
                     </div>
 
@@ -95,6 +103,7 @@ cscccc
         <footer>
             <p>Contact me at <a href="mailto: fernettejs@gmail.com">Fernettejs@gmail.com</a></p>
         </footer>
+
 
     </body>
 
