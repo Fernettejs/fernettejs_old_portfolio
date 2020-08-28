@@ -96,6 +96,7 @@ main{
 .topper{
   border-bottom: 2px solid blue;
   text-align: center;
+  cursor: pointer;
 }
 
 .topper #left{
@@ -225,6 +226,22 @@ main{
 }
 
 #survival-photo{
+  height: 200px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.fart-container{
+  border-radius: 15px;
+  width: 200px;
+  border-width: 10px;
+  border: 2px solid blue;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+#fart-photo{
   height: 200px;
   overflow: hidden;
   width: 100%;
