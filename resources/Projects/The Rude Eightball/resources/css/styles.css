@@ -1,0 +1,45 @@
+body{
+background:  rgb(214, 0, 0);
+}
+
+h1{
+    align-items: center;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+
+#title{
+    margin-bottom: 50px;
+}
+
+.submitGroup{
+    color: darkblue;
+    padding: 50px;
+    margin: auto;
+    background-color:blue;
+    font-size: x-large;
+    font-weight: 600;
+    font-family: monospace;
+    width: 50%;
+
+}
+
+#answer{
+    background-color: blue;
+    color: white;
+    padding: 50px;
+}
+
+.submit{
+    padding: 5px;
+    cursor: pointer;
+}
+
+#text{
+    color: white;
+}
+

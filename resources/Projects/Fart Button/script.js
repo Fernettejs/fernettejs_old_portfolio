@@ -1,9 +1,11 @@
 
 
     function play() {
-        const audio = document.getElementById("audio");
-        audio.play();
-    };
+      const audio = document.getElementById("audio");
+      audio.play();
+    }
+  
+
 
     function newStyle() {
         let newColor = '';
@@ -63,5 +65,3 @@
 // document.getElementById('button').onclick = () => {
 //     fartSound;
 // }
-
-

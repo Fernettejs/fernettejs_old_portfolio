@@ -1,0 +1,56 @@
+body {background-color: rgb(224, 222, 222)}
+
+.me {text-align: right;
+}
+
+.outline {outline-width: 2px; outline-style: solid; outline: tomato;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+h1 {color: rgb(135, 170, 222); font-family: futura; text-align: center; }
+
+h2{font-family: Futura;
+    font-size: 20;
+    color: darkblue;
+    text-align: center;
+    padding-top: 18px;
+}
+
+.css {color: darkturquoise}
+
+.javascript {color: teal;}
+
+table {margin-right: auto;
+
+margin-left: auto;
+}
+
+table, th, td {
+    border: 2px solid black;
+  }
+
+  th, td {
+    padding: 7px;
+  }
+
+  table {
+    border-spacing: 2px;
+}
+
+#tag { background-color: white;
+    font-family: Courier;
+}
+
+th {background-color: darkgray
+}
+
+#files {
+  height: 500px;
+}
+ 
+
+
+/* /Users/afernette/Documents/Code Projects/Code Cheat Sheet/Pretty.css */
