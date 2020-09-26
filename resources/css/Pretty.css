@@ -38,7 +38,7 @@ header {
   width: 100%;
   position: fixed;
   z-index: 1;
-  height: 70px;
+  height: 4em;
   background-color: white;
   align-items: center;
   top: 0px;
@@ -235,7 +235,7 @@ main{
   width: 100%;
 }
 
-.survival-container{
+/* .survival-container{
   border-radius: 15px;
   width: 200px;
   border-width: 10px;
@@ -249,9 +249,9 @@ main{
   height: 200px;
   overflow: hidden;
   width: 100%;
-}
+} */
 
-.fart-container{
+.cowbell-container{
   border-radius: 15px;
   width: 200px;
   border-width: 10px;
@@ -261,8 +261,24 @@ main{
   overflow: hidden;
 }
 
-#fart-photo{
+#cowbell-photo{
   height: 200px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.oo-container{
+  border-radius: 15px;
+  width: 200px;
+  border-width: 10px;
+  border: 2px solid blue;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+#oo-photo{
+  height: 175px;
   overflow: hidden;
   width: 100%;
 }
@@ -307,6 +323,7 @@ footer{
   align-items: center;
   display: inline-block;
   bottom: 0;
+  margin-top: 200px;
 }
 
 /*  Pages */
